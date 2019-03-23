@@ -1,15 +1,14 @@
 用一句自己的话总结学过的设计模式（要精准）。
-设计模式	    类型	   归纳	                     举例
-工厂方法模式	创建型	   生产类的对象	             Beanfactory
-单例模式	   创建型	  只有一个实例对象	         Calender、ApplicationContext
-原型模式	   创建型	  复制对象	                BeanUtils、Cloneable、ArrayList
-代理模式	   结构型	  找中介干活	               JdkDynamicAopProxy、CglibAopProxy
-委派模式	   行为型	  干活算你的，功劳算我的	    DispatcherServlet
-策略模式	   行为型	  不同方法，效果一样	        ResourceLoader
-模板模式	   行为型	  我定了一个模板，你具体实现	JdbcTemplate
-适配器模式	  结构型	   将两个不兼容的接口连接起来	HandleAdapter
-装饰器模式	  结构型	   我会把你包装的更好。 扩展好	jdk中的IO
-观察者模式	  行为型	   我在等通知干活	           Listener
+工厂方法模式:生产类的对象
+单例模式:只有一个实例对象
+原型模式:复制对象
+代理模式:找中介干活
+委派模式:干活算你的，功劳算我的
+策略模式:不同方法，效果一样
+模板模式:我定了一个模板，你具体实现
+适配器模式:将两个不兼容的接口连接起来
+装饰器模式:我会把你包装的更好。 扩展好
+观察者模式: 我在等通知干活	  
 
 
 SpringAOP:
